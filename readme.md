@@ -15,9 +15,11 @@ Modules for [VCV Rack](https://github.com/VCVRack/Rack), an open-source Eurorack
 
 ### <a name="BBD"></a> BBD
 
+A bucket brigade style delay emulator.
+
 ![ScreenShot](screenshots/bbd.png)
 
-A bucket brigade style delay emulator.
+
 
 Bucket brigade delay ICs were used in many effects from simple audio delays to choruses, flangers, and can even be wired for feedback for use as an oscillator!
 
@@ -66,6 +68,7 @@ The 3 delays must receive the LFO modulations 120 degrees out of phase with each
 ### <a name="phase3"></a> Phase 3
 
 A simple LFO with variable waveshape from Sine to Triangle, which outputs the result in 4 phases. 
+
 ![ScreenShot](screenshots/phase3.png)
 
 __Ø1__: Root phase ("Phase 1")(0°)
@@ -87,9 +90,11 @@ __Rate CV IN__ - Allows external control of the oscillator rate.
 
 ### <a name="sid2cv"></a> SID2CV
 
+A .SID File Player for VCV Rack! (VCV Rack is © 2017 Andrew Belt)
+
 ![ScreenShot](screenshots/SID2CV.png)
 
-A .SID File Player for VCV Rack! (VCV Rack is © 2017 Andrew Belt)
+
 
 ## What this is!
 
@@ -319,9 +324,9 @@ Lots of possibilities I haven't even mentioned as well!
 
 ### <a name="combi"></a> COMBI
 
-![ScreenShot](screenshots/combi.png)
-
 SID style Combination waveform generator 
+
+![ScreenShot](screenshots/combi.png)
 
 
 The C64 SID chip could generate triangle,sawtooth,pulse and noise waveforms as selected by a single bit each. Selecting more than one waveform did not simply 'mix' them together, however it resulting in a unique (sometimes unique per chip) unintended waveform. This module will let you generate the most common one, the Triangle + Pulse wave combination
@@ -357,9 +362,11 @@ The SID chip could only apply amplitude modulation to a Triangle waveform, howev
 
 ### <a name="sidenv"></a> SID Envelope
 
+SID style Envelope generator 
+
 ![ScreenShot](screenshots/sidenv.png)
 
-SID style Envelope generator 
+
 
 The C64 SID chip generated waveforms in a slightly unique way, with stepped approximations for a non-linear curve for decay / release times. These are emulated with this module, and the module itself accepts 0-10V control voltages to control the attack/decay/sustain/release times. In addition, much like a real SID chip, the sustain level can only be DECREASED while in sustain mode.
 
@@ -382,9 +389,9 @@ __gate__ : Gate input for the envelope generator.
 
 ### <a name="sidlfsr"></a> SIDLFSR
 
-![ScreenShot](screenshots/sidlfsr.png)
-
 SID style Noise Generator
+
+![ScreenShot](screenshots/sidlfsr.png)
 
 
 This module contains 3 SID noise generators. The SID used an LFSR (linear function shift register) to generate it's noise waveform, and is replicated here.
