@@ -374,7 +374,7 @@ __gate__ : Gate input for the envelope generator.
 
 
 
-### <a name="BBD"></a> SIDLFSR
+### <a name="sidlfsr"></a> SIDLFSR
 SID style Noise Generator
 ![ScreenShot](screenshots/sidlfsr.png)
 
