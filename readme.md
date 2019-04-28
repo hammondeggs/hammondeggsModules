@@ -92,7 +92,7 @@ __Rate CV IN__ - Allows external control of the oscillator rate.
 
 A .SID File Player for VCV Rack! (VCV Rack is © 2017 Andrew Belt)
 
-![ScreenShot](screenshots/SID2CV.png)
+![ScreenShot](screenshots/sid2cv.png)
 
 
 
