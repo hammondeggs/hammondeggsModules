@@ -191,6 +191,7 @@ The buttons in the lower section are for handling more than one file at a time. 
 *How do I generate this list though?*
 
 In the Windows version, your list should contain multiple text lines that could look like this:
+
 E:\emulation\C64Music\DEMOS\0-9\1982.sid<br/> 
 E:\emulation\C64Music\DEMOS\0-9\1st_Chaff.sid<br/>
 E:\emulation\C64Music\DEMOS\0-9\1st_Sound.sid<br/>
